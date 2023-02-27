@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/b_allison_portfolio/static/css/main.10b27ab4.css",
+    "main.js": "/b_allison_portfolio/static/js/main.8f69dc29.js",
+    "static/media/portfolio-character.png": "/b_allison_portfolio/static/media/portfolio-character.5454c20f3de1c0be724c.png",
+    "static/media/home.jpg": "/b_allison_portfolio/static/media/home.ac48191ce6d100c459d6.jpg",
+    "static/media/proj-02.png": "/b_allison_portfolio/static/media/proj-02.f47a2cf4a889385f5d86.png",
+    "static/media/proj-05.png": "/b_allison_portfolio/static/media/proj-05.967bdb57e471e04ae7fe.png",
+    "static/media/proj-01.png": "/b_allison_portfolio/static/media/proj-01.b1c0756a5857b7440b8f.png",
+    "static/media/proj-06.png": "/b_allison_portfolio/static/media/proj-06.b1ced6db88e8850bc3e2.png",
+    "static/media/proj-04.png": "/b_allison_portfolio/static/media/proj-04.0551cb231b68f96be683.png",
+    "static/media/proj-03.png": "/b_allison_portfolio/static/media/proj-03.9d27e0a1727e0a3ec24f.png",
+    "index.html": "/b_allison_portfolio/index.html",
+    "main.10b27ab4.css.map": "/b_allison_portfolio/static/css/main.10b27ab4.css.map",
+    "main.8f69dc29.js.map": "/b_allison_portfolio/static/js/main.8f69dc29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10b27ab4.css",
+    "static/js/main.8f69dc29.js"
+  ]
+}

@@ -1,0 +1,105 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  /* border-style: solid; */
+  border-color: var(--blue);
+  margin-top: 15px;
+  padding: 20px;
+  background: var(--blue);
+  background: -moz-linear-gradient(top, #3a4267 0%, #191d2d 100%);
+  background: -webkit-linear-gradient(top, #3a4267 0%, #191d2d 100%);
+  background: linear-gradient(to bottom, #3a4267 0%, #191d2d 100%);
+}
+
+.glass {
+  padding: 20px 40px 40px;
+  max-width: 1240px;
+  display: flex;
+}
+.powder {
+  margin: 20px 30px -30px 0;
+  width: 25%;
+  object-fit: contain;
+  align-self: flex-start;
+}
+.milk {
+  flex: 1 1 auto;
+  margin-top: 30px;
+}
+
+.proj-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.eggs {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 40px;
+}
+
+.sausage {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.hotsausage {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 300;
+}
+
+.imgboxer {
+  display: grid;
+  height: 100%;
+}
+
+.bacon {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+
+.hashbrowns {
+  font-size: smaller;
+}
+
+.protle {
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: -5px;
+}
+
+.pretzels {
+  font-family: "Teko", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.hotsausage:hover {
+  color: hotpink !important;
+  cursor: pointer !important;
+}
+
+.footlinks {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1065px) {
+  .proj-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: none;
+    width: 90%;
+  }
+  .beer {
+    margin-right: 20px;
+  }
+}
