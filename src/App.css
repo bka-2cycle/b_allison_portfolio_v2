@@ -12,6 +12,20 @@ footer {
   background: linear-gradient(to bottom, #3a4267 0%, #191d2d 100%);
 }
 
+
+
+/* .mustard {
+  padding: 0 2rem;
+  text-align: center;
+} */
+
+.ketchup {
+  padding: 4rem 0;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .glass {
   padding: 20px 40px 40px;
   max-width: 1240px;

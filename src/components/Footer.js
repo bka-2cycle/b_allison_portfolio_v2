@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFilePdf} from '@fortawesome/free-solid-svg-icons'
-import {faCodeBranch} from '@fortawesome/free-solid-svg-icons'
+// import {faCodeBranch} from '@fortawesome/free-solid-svg-icons'
 import { SocialIcon } from 'react-social-icons';
 import { ExternalLink } from 'react-external-link';
 

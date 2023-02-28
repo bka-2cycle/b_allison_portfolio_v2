@@ -6,7 +6,7 @@ export default function Home() {
   return (
     
     <div className="imgboxer">
-      <img className="bacon"src={img} />
+      <img className="bacon" src={img} alt="home page pic"/>
     </div>
 
   );

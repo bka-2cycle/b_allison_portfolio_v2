@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="glass">
       
-        <img className="powder" src={imgchar} />
+        <img className="powder" src={imgchar} alt="character"/>
       
       
       <div className="milk">
