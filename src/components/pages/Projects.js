@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
-// import { ExternalLink } from 'react-external-link';
+import { ExternalLink } from 'react-external-link';
 
 
 
@@ -30,7 +30,7 @@ export default function Projects() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
 
       <Carousel.Item>
         <img
@@ -39,12 +39,21 @@ export default function Projects() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>MERN Stack CMS</h3>
-          <p>Designed to assist job seekers in their quest for employment in an often decentralized endeavor. 
+          <h3 className="gravy">MERN Stack CMS</h3>
+          <p className="hashbrowns">Designed to assist job seekers in their quest for employment in an often decentralized endeavor. 
             Users can save information about jobs they have applied for, including company name, 
             job title and description, lead source, pertinent notes, follow-up correspondence, and the 
             ability to upload documents such as resumes and cover letters. It also allows users to track 
             the time passed throughout the application process.</p>
+
+            <ExternalLink className="pretzels" href="https://github.com/csanchezwagenbach/applied-v1">
+      GitHub Repo
+    </ExternalLink> &nbsp; &nbsp; &nbsp;
+
+    <ExternalLink className="pretzels" href="https://fathomless-brushlands-43089.herokuapp.com/">
+      Deployed Site
+    </ExternalLink>
+
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -56,11 +65,20 @@ export default function Projects() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h3>Front End Application</h3>
-          <p>This just-for-fun app helps you face your day by suggesting movies, song play lists, 
+          <h3 className="gravy">Front End Application</h3>
+          <p className="hashbrowns">This just-for-fun app helps you face your day by suggesting movies, song play lists, 
             and books based on your mood. In lieu of the way your feeling, it'll provide you with a 
             funny joke, a notable quote, and what happened this day in history. The site was created 
             using HTML, Javascript, JQuery, Bootstrap JS, Day JS, custom CSS and queries six API's both local and remote.</p>
+
+            <ExternalLink className="pretzels" href="https://github.com/bka-2cycle/face-the-day">
+      GitHub Repo
+    </ExternalLink> &nbsp; &nbsp; &nbsp;
+
+    <ExternalLink className="pretzels" href="https://bka-2cycle.github.io/face-the-day/">
+      Deployed Site
+    </ExternalLink>
+
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -72,12 +90,21 @@ export default function Projects() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3>CMS-style Blog Site</h3>
-          <p>
+          <h3 className="gravy">CMS-style Blog Site</h3>
+          <p className="hashbrowns">
           A CMS-style blog site where developers can create an account, publish their blog posts and comment on 
           other developers’ posts as well. The app follows the MVC paradigm in its architectural structure, 
           using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
           </p>
+
+          <ExternalLink className="pretzels" href="https://github.com/bka-2cycle/tech-blog">
+      GitHub Repo
+    </ExternalLink> &nbsp; &nbsp; &nbsp;
+
+    <ExternalLink className="pretzels" href="https://speakingincode.herokuapp.com/">
+      Deployed Site
+    </ExternalLink>
+
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -88,11 +115,20 @@ export default function Projects() {
           alt="Fourth slide"
         />
         <Carousel.Caption>
-          <h3>Social Network API Routes</h3>
-          <p>
+          <h3 className="gravy">Social Network API Routes</h3>
+          <p className="hashbrowns">
           A functioning API for a Social Network platform that can be route tested via Insomnia, Postman or similar API development software. 
           Built using Express.js for routing, a MongoDB database, and the Mongoose ODM.
           </p>
+
+          <ExternalLink className="pretzels" href="https://github.com/bka-2cycle/Social-Network-api">
+      GitHub Repo
+    </ExternalLink> &nbsp; &nbsp; &nbsp;
+
+    <ExternalLink className="pretzels" href="https://github.com/bka-2cycle/Social-Network-api/blob/main/README.md">
+      ReadMe.md
+    </ExternalLink>
+
         </Carousel.Caption>
       </Carousel.Item>
 

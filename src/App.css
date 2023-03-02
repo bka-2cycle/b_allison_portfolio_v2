@@ -1,3 +1,15 @@
+
+#root {
+  background-color: #000000 !important;
+}
+
+body {
+  background-color: #000000 !important;
+}
+
+
+
+
 footer {
   display: flex;
   flex-direction: column;
@@ -7,9 +19,9 @@ footer {
   margin-top: 15px;
   padding: 20px;
   background: var(--blue);
-  background: -moz-linear-gradient(top, #3a4267 0%, #191d2d 100%);
-  background: -webkit-linear-gradient(top, #3a4267 0%, #191d2d 100%);
-  background: linear-gradient(to bottom, #3a4267 0%, #191d2d 100%);
+  background: -moz-linear-gradient(top, #3a4267 0%, #000000 100%);
+  background: -webkit-linear-gradient(top, #3a4267 0%, #000000 100%);
+  background: linear-gradient(to bottom, #3a4267 0%, #000000 100%);
 }
 
 
@@ -21,7 +33,7 @@ footer {
 
 .ketchup {
   padding: 4rem 0;
-  max-width: 1000px;
+  max-width: 1785px;
   width: 100%;
   margin: 0 auto;
 }
@@ -51,6 +63,26 @@ footer {
 .eggs {
   font-family: "Red Hat Display", sans-serif;
   font-size: 40px;
+  color: gray;
+}
+
+.form-label {
+  color: gray; 
+}
+
+.biscuit {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: crimson;
+}
+
+.gravy {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  color: crimson;
+  margin-top: 30px !important;
 }
 
 .sausage {
@@ -79,6 +111,7 @@ footer {
 
 .hashbrowns {
   font-size: smaller;
+  color: gray;
 }
 
 .protle {
@@ -89,7 +122,7 @@ footer {
 }
 
 .pretzels {
-  font-family: "Teko", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-weight: 300;
   font-size: 22px;
   text-decoration: none;
