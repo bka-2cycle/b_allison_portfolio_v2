@@ -24,7 +24,9 @@ footer {
   background: linear-gradient(to bottom, #3a4267 0%, #000000 100%);
 }
 
-
+.oatmeal {
+  margin-left: 110px;
+}
 
 /* .mustard {
   padding: 0 2rem;
@@ -64,6 +66,41 @@ footer {
   font-family: "Red Hat Display", sans-serif;
   font-size: 40px;
   color: gray;
+}
+
+
+.quote {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 40px;
+  color: rgb(56, 124, 234);
+  font-weight: 300;
+  font-style: italic;
+}
+
+.sugar {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 40px;
+  color: gray;
+  /* margin-top: 110px; */
+}
+
+.contact {
+  font-family: "Red Hat Display", sans-serif;
+  color: gray;
+}
+
+.reach {
+  font-family: "Red Hat Display", sans-serif;
+  color: rgb(251, 248, 248);
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.info {
+  font-family: "Red Hat Display", sans-serif;
+  color: gray;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 .form-label {
