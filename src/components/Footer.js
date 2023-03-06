@@ -24,9 +24,9 @@ export default function Footer() {
             <span className="hotsausage" style={{ color: '#D3D3D3' }}> GitHub <SocialIcon style={{ height: 20, width: 20 }} bgColor="#D3D3D3" url="https://github.com/bka-2cycle" /></span><br></br>
     </ExternalLink>
 
-    <ExternalLink className="sausage" href="https://stackoverflow.com/users/21193744/brian-allison">
+    {/* <ExternalLink className="sausage" href="https://stackoverflow.com/users/21193744/brian-allison">
             <span className="hotsausage" style={{ color: '#D3D3D3' }}> StackOverflow <SocialIcon style={{ height: 20, width: 20 }} bgColor="#D3D3D3" url="https://stackoverflow.com/users/21193744/brian-allison" /></span><br></br>
-    </ExternalLink>
+    </ExternalLink> */}
 
     </div>
             

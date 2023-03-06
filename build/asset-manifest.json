@@ -1,19 +1,41 @@
 {
   "files": {
-    "main.css": "/b_allison_portfolio_v2/static/css/main.4389608c.css",
-    "main.js": "/b_allison_portfolio_v2/static/js/main.3740246e.js",
+    "main.css": "/b_allison_portfolio_v2/static/css/main.85e0a57d.css",
+    "main.js": "/b_allison_portfolio_v2/static/js/main.16389ed7.js",
+    "static/media/slide-aa.png": "/b_allison_portfolio_v2/static/media/slide-aa.5dcd1d2f25d1702bc6e8.png",
+    "static/media/slide-k.png": "/b_allison_portfolio_v2/static/media/slide-k.c70fe52ef360dfed9bd0.png",
+    "static/media/slide-aaa.png": "/b_allison_portfolio_v2/static/media/slide-aaa.78994a60532cd46f1f0b.png",
+    "static/media/slide-i.png": "/b_allison_portfolio_v2/static/media/slide-i.5e041072aa6f9cc11bfb.png",
+    "static/media/slide-l.png": "/b_allison_portfolio_v2/static/media/slide-l.7fe0d817a7d117fea505.png",
+    "static/media/slide-j.png": "/b_allison_portfolio_v2/static/media/slide-j.e17b01e2a13d2a3973c0.png",
+    "static/media/slide-n.png": "/b_allison_portfolio_v2/static/media/slide-n.9dc0edb6aa73fe3a2fc7.png",
+    "static/media/slide-g.png": "/b_allison_portfolio_v2/static/media/slide-g.9f9d90597d254e49ba23.png",
+    "static/media/slide-cc.png": "/b_allison_portfolio_v2/static/media/slide-cc.273904a43bc427a2a473.png",
+    "static/media/slide-ee.png": "/b_allison_portfolio_v2/static/media/slide-ee.9218fe45e549b8f1dbde.png",
+    "static/media/slide-dd.png": "/b_allison_portfolio_v2/static/media/slide-dd.e25f6f091af7248fa322.png",
+    "static/media/slide-m.png": "/b_allison_portfolio_v2/static/media/slide-m.4faae43e9042b115bbab.png",
+    "static/media/slide-bb.png": "/b_allison_portfolio_v2/static/media/slide-bb.45b5cf1a62edd4ca3a84.png",
+    "static/media/slide-h.png": "/b_allison_portfolio_v2/static/media/slide-h.a7efe6323226d28afe13.png",
     "static/media/portfolio-character.png": "/b_allison_portfolio_v2/static/media/portfolio-character.5454c20f3de1c0be724c.png",
-    "static/media/home.jpg": "/b_allison_portfolio_v2/static/media/home.ac48191ce6d100c459d6.jpg",
+    "static/media/slide-ff.png": "/b_allison_portfolio_v2/static/media/slide-ff.676f50f1d97f1330fd68.png",
+    "static/media/home2.jpg": "/b_allison_portfolio_v2/static/media/home2.3b512879be2f39b902bf.jpg",
+    "static/media/slide-two.png": "/b_allison_portfolio_v2/static/media/slide-two.96a754a16f1e179c90d4.png",
+    "static/media/slide-three.png": "/b_allison_portfolio_v2/static/media/slide-three.a4fe16a6e31780f6b4ea.png",
+    "static/media/slide-blnk.png": "/b_allison_portfolio_v2/static/media/slide-blnk.94e168c9c15ac18334f4.png",
+    "static/media/slide-one.png": "/b_allison_portfolio_v2/static/media/slide-one.18ddcb91560f2f1010c4.png",
+    "static/media/proj-05.png": "/b_allison_portfolio_v2/static/media/proj-05.967bdb57e471e04ae7fe.png",
+    "static/media/slide-four.png": "/b_allison_portfolio_v2/static/media/slide-four.9ceaf88224f33140b9cb.png",
+    "static/media/proj-06.png": "/b_allison_portfolio_v2/static/media/proj-06.b1ced6db88e8850bc3e2.png",
     "static/media/react-bootstrap-carousel.eot": "/b_allison_portfolio_v2/static/media/react-bootstrap-carousel.1a0fe919ea31a13740d3.eot",
     "static/media/react-bootstrap-carousel.ttf": "/b_allison_portfolio_v2/static/media/react-bootstrap-carousel.f41331129badd2b01fc7.ttf",
     "index.html": "/b_allison_portfolio_v2/index.html",
     "static/media/react-bootstrap-carousel.woff": "/b_allison_portfolio_v2/static/media/react-bootstrap-carousel.96e0693824065d5b7d56.woff",
     "static/media/react-bootstrap-carousel.svg": "/b_allison_portfolio_v2/static/media/react-bootstrap-carousel.190d0d1bf1c865be7a1b.svg",
-    "main.4389608c.css.map": "/b_allison_portfolio_v2/static/css/main.4389608c.css.map",
-    "main.3740246e.js.map": "/b_allison_portfolio_v2/static/js/main.3740246e.js.map"
+    "main.85e0a57d.css.map": "/b_allison_portfolio_v2/static/css/main.85e0a57d.css.map",
+    "main.16389ed7.js.map": "/b_allison_portfolio_v2/static/js/main.16389ed7.js.map"
   },
   "entrypoints": [
-    "static/css/main.4389608c.css",
-    "static/js/main.3740246e.js"
+    "static/css/main.85e0a57d.css",
+    "static/js/main.16389ed7.js"
   ]
 }

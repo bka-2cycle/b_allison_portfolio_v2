@@ -15,7 +15,7 @@ import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
 
 import desblnk from '../../assets/slide-blnk.png';
-import desaa from '../../assets/slide-aa.png';
+import desa from '../../assets/slide-a.png';
 import desaaa from '../../assets/slide-aaa.png';
 import desbb from '../../assets/slide-bb.png';
 import descc from '../../assets/slide-cc.png';
@@ -23,13 +23,18 @@ import desdd from '../../assets/slide-dd.png';
 import dese from '../../assets/slide-ee.png';
 import desff from '../../assets/slide-ff.png';
 import desg from '../../assets/slide-g.png';
-import desh from '../../assets/slide-h.png';
+import desq from '../../assets/slide-q.png';
 import desi from '../../assets/slide-i.png';
 import desj from '../../assets/slide-j.png';
 import desk from '../../assets/slide-k.png';
 import desl from '../../assets/slide-l.png';
 import desm from '../../assets/slide-m.png';
+import desmm from '../../assets/slide-mm.png';
 import desn from '../../assets/slide-n.png';
+import deso from '../../assets/slide-o.png';
+import desp from '../../assets/slide-p.png';
+import desr from '../../assets/slide-r.png';
+import dess from '../../assets/slide-s.png';
 
 export default function Projects() {
   
@@ -42,97 +47,8 @@ export default function Projects() {
   return (
     <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
 
+
 <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={desblnk}
-          alt="Transition slide"
-        />
-        <Carousel.Caption>
-          <span className="biscuit">Magazine & Newspaper</span>
-          <p></p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      
-      
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={desaa}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3></h3>
-          <p></p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={desaaa}
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-          <h3></h3>
-          <p></p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={desblnk}
-          alt="Transition slide"
-        />
-        <Carousel.Caption>
-        <span className="biscuit">Editorial Page Layout & Design</span>
-          <p></p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={desk}
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h3></h3>
-          <p></p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={desblnk}
-          alt="Transition slide"
-        />
-        <Carousel.Caption>
-        <span className="biscuit">Media Kit</span>
-          <p></p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={desl}
-          alt="Fourth slide"
-        />
-        <Carousel.Caption>
-          <h3></h3>
-          <p></p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-
-      <Carousel.Item>
         <img
           className="d-block w-100"
           src={desblnk}
@@ -149,6 +65,19 @@ export default function Projects() {
         <img
           className="d-block w-100"
           src={desm}
+          alt="Fifth slide"
+        />
+        <Carousel.Caption>
+          <h3></h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={desmm}
           alt="Fifth slide"
         />
         <Carousel.Caption>
@@ -266,6 +195,87 @@ export default function Projects() {
         </Carousel.Caption>
       </Carousel.Item>
 
+
+
+<Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={desblnk}
+          alt="Transition slide"
+        />
+        <Carousel.Caption>
+          <span className="biscuit">Magazine & Newspaper</span>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      
+      
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={desa}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3></h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={desblnk}
+          alt="Transition slide"
+        />
+        <Carousel.Caption>
+        <span className="biscuit">Editorial Page Layout & Design</span>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={desk}
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3></h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={desblnk}
+          alt="Transition slide"
+        />
+        <Carousel.Caption>
+        <span className="biscuit">Media Kit</span>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={desl}
+          alt="Fourth slide"
+        />
+        <Carousel.Caption>
+          <h3></h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      
+
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -309,7 +319,7 @@ export default function Projects() {
           alt="Transition slide"
         />
         <Carousel.Caption>
-        <span className="biscuit">Web Banner</span>
+        <span className="biscuit">Display Banner Ads</span>
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -335,7 +345,7 @@ export default function Projects() {
           alt="Transition slide"
         />
         <Carousel.Caption>
-        <span className="biscuit">Logo Design - Annual Issue</span>
+        <span className="biscuit">Logo Design</span>
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -344,7 +354,7 @@ export default function Projects() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={desh}
+          src={desq}
           alt="Fourteenth slide"
         />
         <Carousel.Caption>
@@ -361,7 +371,7 @@ export default function Projects() {
           alt="Transition slide"
         />
         <Carousel.Caption>
-        <span className="biscuit">Illustration - Colored/Pencil</span>
+        <span className="biscuit">Illustration - Colored/Pencil, Marker</span>
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -371,6 +381,83 @@ export default function Projects() {
         <img
           className="d-block w-100"
           src={desn}
+          alt="Fourteenth slide"
+        />
+        <Carousel.Caption>
+          <h3></h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={desr}
+          alt="Fourteenth slide"
+        />
+        <Carousel.Caption>
+          <h3></h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={desblnk}
+          alt="Transition slide"
+        />
+        <Carousel.Caption>
+        <span className="biscuit">Design - Apparel</span>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={deso}
+          alt="Fourteenth slide"
+        />
+        <Carousel.Caption>
+          <h3></h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={desp}
+          alt="Fourteenth slide"
+        />
+        <Carousel.Caption>
+          <h3></h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={desblnk}
+          alt="Transition slide"
+        />
+        <Carousel.Caption>
+        <span className="biscuit">Photography - Food</span>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={dess}
           alt="Fourteenth slide"
         />
         <Carousel.Caption>

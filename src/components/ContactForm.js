@@ -14,14 +14,14 @@ const ContactForm = () => {
     
       
       <div className="oatmeal"><br></br><br></br>
-      <span className="sugar">Reach Out</span><br></br>
+      <span className="sugar"></span><br></br>
       <span className="quote">'Great things start with a conversation.'</span><p></p>
       <p className="contact">Located in the Los Angeles area and currently open to
-      full-time opportunities<br></br>both remote and on-site for development or design work.<br></br></p>
-      <p className="info"> <span className="reach"> I can be reached via cell or email:</span><br></br>
+      full-time opportunities<br></br>both remote and on-site for junior development and/or design work.<br></br></p>
+      <p className="info"><br></br>
       Brian Allison<br></br>
       818-326-9899<br></br>
-      <Mailto email="brian.keith.allison@gmail.com" subject="Design and/or Develop" body="Hello Brian,">
+      <Mailto style={{ textDecoration: 'none' }} email="brian.keith.allison@gmail.com" subject="Design and/or Develop" body="Hello Brian,">
     Shoot me an email
   </Mailto>
 </p><div><p>&nbsp;</p></div>
