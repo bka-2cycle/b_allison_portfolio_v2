@@ -23,6 +23,7 @@ import desdd from '../../assets/slide-dd.png';
 import dese from '../../assets/slide-ee.png';
 import desff from '../../assets/slide-ff.png';
 import desg from '../../assets/slide-g.png';
+import desy from '../../assets/slide-y.png';
 import desq from '../../assets/slide-q.png';
 import desi from '../../assets/slide-i.png';
 import desj from '../../assets/slide-j.png';
@@ -50,7 +51,7 @@ export default function Projects() {
 
 <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
@@ -89,7 +90,7 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
@@ -143,12 +144,12 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
         <Carousel.Caption>
-        <span className="biscuit">Trade Show Booth - Table Display</span>
+        <span className="biscuit">Trade Show Display</span>
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -171,7 +172,7 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
@@ -186,7 +187,7 @@ export default function Projects() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={desff}
+          src={desy}
           alt="Tenth slide"
         />
         <Carousel.Caption>
@@ -199,12 +200,12 @@ export default function Projects() {
 
 <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
         <Carousel.Caption>
-          <span className="biscuit">Magazine & Newspaper</span>
+          <span className="biscuit">Publications</span>
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -225,12 +226,12 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
         <Carousel.Caption>
-        <span className="biscuit">Editorial Page Layout & Design</span>
+        <span className="biscuit">Page Layout & Design</span>
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -250,7 +251,7 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
@@ -278,12 +279,12 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
         <Carousel.Caption>
-        <span className="biscuit">Advertisement - Print</span>
+        <span className="biscuit">Advertising - Print</span>
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -314,7 +315,7 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
@@ -340,7 +341,7 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
@@ -366,12 +367,12 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
         <Carousel.Caption>
-        <span className="biscuit">Illustration - Colored/Pencil, Marker</span>
+        <span className="biscuit">Illustration - Pencil</span>
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -390,7 +391,7 @@ export default function Projects() {
       </Carousel.Item>
 
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <img
           className="d-block w-100"
           src={desr}
@@ -400,12 +401,12 @@ export default function Projects() {
           <h3></h3>
           <p></p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
 
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
@@ -443,12 +444,12 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block blank w-100"
           src={desblnk}
           alt="Transition slide"
         />
         <Carousel.Caption>
-        <span className="biscuit">Photography - Food</span>
+        <span className="biscuit">Photography</span>
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>

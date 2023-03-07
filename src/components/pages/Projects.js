@@ -34,11 +34,11 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block f-block w-100"
           src={proja}
           alt="First slide"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="tea">
           <h3 className="gravy">MERN Stack CMS</h3>
           <p className="hashbrowns">Designed to assist job seekers in their quest for employment in an often decentralized endeavor. 
             Users can save information about jobs they have applied for, including company name, 
@@ -60,11 +60,11 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block f-block w-100"
           src={projb}
           alt="Second slide"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="tea">
           <h3 className="gravy">Front End Application</h3>
           <p className="hashbrowns">This just-for-fun app helps you face your day by suggesting movies, song play lists, 
             and books based on your mood. In lieu of the way your feeling, it'll provide you with a 
@@ -85,11 +85,11 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block f-block w-100"
           src={projc}
           alt="Third slide"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="tea">
           <h3 className="gravy">CMS-style Blog Site</h3>
           <p className="hashbrowns">
           A CMS-style blog site where developers can create an account, publish their blog posts and comment on 
@@ -110,11 +110,11 @@ export default function Projects() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block f-block w-100"
           src={projd}
           alt="Fourth slide"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="tea">
           <h3 className="gravy">Social Network API Routes</h3>
           <p className="hashbrowns">
           A functioning API for a Social Network platform that can be route tested via Insomnia, Postman or similar API development software. 

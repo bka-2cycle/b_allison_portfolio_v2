@@ -57,12 +57,14 @@ a:-webkit-any-link {
   max-width: 1240px;
   display: flex;
 }
+
 .powder {
   margin: 20px 30px -30px 0;
   width: 25%;
   object-fit: contain;
   align-self: flex-start;
 }
+
 .milk {
   flex: 1 1 auto;
   margin-top: 30px;
@@ -163,6 +165,11 @@ a:-webkit-any-link {
   color: gray;
 }
 
+.cornbeef {
+  font-size: smaller;
+  color: gray;
+}
+
 .protle {
   font-family: "Teko", sans-serif;
   font-weight: 400;
@@ -187,15 +194,93 @@ a:-webkit-any-link {
   display: inline-block;
 }
 
-@media only screen and (max-width: 1065px) {
-  .proj-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    float: none;
-    width: 90%;
+@media only screen and (max-width: 1045px) {
+
+  .hashbrowns {
+    display: none;
   }
-  .beer {
-    margin-right: 20px;
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .gravy {
+    font-size: 20px;
   }
+  
+  .pretzels {
+    font-size: 10px;
+  }
+
+  .f-block {
+    margin-bottom: 25px;
+  }
+
+  .biscuit {
+    font-size: 30px;
+  }
+
+  .oatmeal {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 406px) {
+ 
+
+  ul {
+    list-style-type: none; 
+    flex-direction: column;
+}
+
+.nav-link {
+  font-size: 10px;
+}
+
+.powder {
+  display: none;
+}
+
+.eggs {
+  font-size: 35px;
+  line-height: 30pt;
+  margin-bottom: 40px;
+}
+
+.oatmeal {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.sugar {
+  display: none;
+}
+
+.biscuit {
+  font-size: 20px;
+}
+
+
+.hashbrowns {
+  display: none;
+}
+
+.gravy {
+  font-size: 20px;
+}
+
+.pretzels {
+  font-size: 10px;
+}
+
+.f-block {
+  margin-bottom: 25px;
+}
+
 }
