@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/b_allison_portfolio_v2/static/css/main.a681f767.css",
-    "main.js": "/b_allison_portfolio_v2/static/js/main.63d3915c.js",
+    "main.js": "/b_allison_portfolio_v2/static/js/main.ee30f73c.js",
     "static/media/slide-k.png": "/b_allison_portfolio_v2/static/media/slide-k.c70fe52ef360dfed9bd0.png",
     "static/media/slide-aaa.png": "/b_allison_portfolio_v2/static/media/slide-aaa.78994a60532cd46f1f0b.png",
     "static/media/slide-i.png": "/b_allison_portfolio_v2/static/media/slide-i.5e041072aa6f9cc11bfb.png",
@@ -38,10 +38,10 @@
     "static/media/react-bootstrap-carousel.woff": "/b_allison_portfolio_v2/static/media/react-bootstrap-carousel.96e0693824065d5b7d56.woff",
     "static/media/react-bootstrap-carousel.svg": "/b_allison_portfolio_v2/static/media/react-bootstrap-carousel.190d0d1bf1c865be7a1b.svg",
     "main.a681f767.css.map": "/b_allison_portfolio_v2/static/css/main.a681f767.css.map",
-    "main.63d3915c.js.map": "/b_allison_portfolio_v2/static/js/main.63d3915c.js.map"
+    "main.ee30f73c.js.map": "/b_allison_portfolio_v2/static/js/main.ee30f73c.js.map"
   },
   "entrypoints": [
     "static/css/main.a681f767.css",
-    "static/js/main.63d3915c.js"
+    "static/js/main.ee30f73c.js"
   ]
 }
