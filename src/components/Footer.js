@@ -12,7 +12,7 @@ export default function Footer() {
             <span className="sausage" style={{ color: '#D3D3D3' }}>Brian Allison: Portfolio</span>
 
 <div className="footlinks">
-            <ExternalLink className="sausage" href="https://drive.google.com/file/d/1YaEhkT8Cw-6CJ23tSZf75JCOQl1_Oewq/view?usp=sharing">
+            <ExternalLink className="sausage" href="https://docs.google.com/document/d/1jtg9JPu9w_YfyxWvgId8HVddpTle7kvDQGs114qM3XU/edit?usp=sharing">
             <span className="hotsausage" style={{ color: '#D3D3D3' }}> Resume <FontAwesomeIcon icon={faFilePdf} size={'xs'} /></span>
     </ExternalLink>
 
